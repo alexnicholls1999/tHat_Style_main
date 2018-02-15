@@ -49,18 +49,19 @@
                     <input type="password" required autocomplete="off" name="password"/>
                 </div>
 
-                <div class="gender">
                     </br>
                     <label> Gender: </label> 
-                    <input type="button" value="Male" name="gender"/>
-                    <input type="button" value="Female" name="gender"/>
+                    <div id="btnmale"><input type="button" value="Male" name="gender"/></div>
+                    <div id="btnfemale"><input type="button" value="Female" name="gender"/></div>
                 </div> 
 
                 <div class="message"> 
                     </br>
+                    </br>
 
                     <input type="checkbox"/><span class="req"></span>
-                    <label> Tick the box for email updates </label> </br>
+                    <label> Send email messages for latest news and offers
+ </label> </br>
 
                     <input type="checkbox"/><span class="req"></span>
                     <label> Accept Terms and Conditions </label>
