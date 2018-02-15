@@ -1,0 +1,128 @@
+/* main content - home */ 
+#wrapper {
+    background-color: #F2F2F2;
+    width: 375px; 
+    height: 667px;
+    margin: 0 auto;
+}            
+#logo {
+    margin-left: 110px;   
+    padding: 20px;
+}
+#title h1 {
+    text-align: center; 
+    padding: 10px;
+    font-family: brad;
+    font-weight: bold;
+    font-size: 32px;
+}
+#content h2 {
+    text-align: center; 
+    font-size: 32px;
+    font-family: brad, Arial; 
+    margin-top: 10px;
+}
+#Footer {
+    color: #fff; 
+    background-color: #0060c5;
+    text-align: center;
+    margin: 90px 0px 0px 0px; 
+    font-family: brad;      
+}
+#Footer p {
+    text-align: center;
+    color: white;
+    font-family: brad;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* main content - dashboard */
+#dashboard #wrapper {
+    background-color: #F2F2F2;
+    width: 375px; 
+    height: 667px;
+    margin: 0 auto;
+}            
+#dashboard #header {
+    color: #fff; 
+    background-color: #0060c5;
+    margin: 0px 0px 0px 0px; 
+    font-family: brad; 
+    height: 55px;
+}
+
+#dashboard #header h1 {
+    text-align: left; 
+    padding: 10px;
+    font-family: brad;
+    font-weight: bold;
+    font-size: 32px;
+}
+#dashboard #header .icon {
+    margin-top: -100px;
+    margin-left: 120px;
+    padding: -0px -10px;
+}
+
+#dashboard #content h2 {
+    text-align: center; 
+    font-size: 32px;
+    font-family: brad, Arial; 
+    margin-top: 10px;
+}
+#dashboard #Footer {
+    color: #fff; 
+    background-color: #0060c5;
+    text-align: center;
+    margin: 90px 0px 0px 0px; 
+    font-family: brad;      
+}
+#dashboard #Footer p {
+    text-align: center;
+    color: white;
+    font-family: brad;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/*styles*/ 
+@font-face {
+    font-family: brad;
+    src: url('../tHat_Style/brad.TTF')
+}
+.btn {
+      display: inline-block;
+      border: none;
+      padding: 6px 12px;
+      margin-left: 0px;
+      font-size: 0px;
+      font-weight: bold;
+      text-align: center; 
+      cursor: pointer;  
+}     
+
+.btn-lg {
+      padding: 20px 10px;
+      font-size: 32px;
+      width: 80%;
+      margin: 10px 0px 0px 35px;
+      font-family: brad; 
+}
+.btn-sm {
+      padding: 5px 10px;
+      font-size: 18px;                   
+}
+
+.btn-success {
+      color: #FFF;
+      background-color: #0060c5;
+      border-color:#0060c5;
+}
+.btn-success:hover,
+.btn-sucess:focus,
+.btn-sucess:active {
+      color: #fff;
+      background-color: #0060c5;
+      border-color: #0060c5;
+}
