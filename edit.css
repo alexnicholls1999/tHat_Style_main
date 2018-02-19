@@ -46,13 +46,12 @@ a {
     
     text-align: center; 
     
-    cursor: pointer;  
-    
     padding: 5px 10px ;
     margin: 20px 0px 0px 35px;
     width: 80%;
   
     background-color: #0060c5;
+    opacity: 0.4;
     color: #fff;
     
     border: solid 1px #0060c5;
@@ -65,13 +64,12 @@ a {
     
     text-align: center; 
     
-    cursor: pointer;  
-    
     padding: 5px 10px;
     margin: 10px 0px 0px 35px;
     width: 80%;
   
     background-color: #00B0F0;
+    opacity: 0.4;
     color: #fff;
     
     border: solid 1px #00B0F0;

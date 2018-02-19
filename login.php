@@ -17,9 +17,21 @@
             <div id= "title">
                 <h1> tHat Style </h1>
             </div> 
+
+            <div id="facebook">
+                        </br>
+                         <a><button> Connect With Facebook </button></a>
+            </div> 
+            <div id="twitter">    
+                        <a><button> Connect With Twitter </button></a>
+            </div>
             
             <div id="login">
-                <form action="index.php" method="post" autocomplete="off"> 
+                <form action="dash.php" method="post" autocomplete="off"> 
+
+                    <div class="Manual">
+                        <h2> Or </h2>
+                    </div>
 
                     <div class="field-wrap"> 
                     <label> Email: <span class="req"></span></label>
@@ -32,7 +44,7 @@
                     </div>
                    
                     <p class= "forgot"><a href="forgot.php">Forgot My Password?</a></p>
-                    <button class= "btn btn-success btn-lg">Sign In</button>
+                    <button class= "btn btn-success btn-lg">Sign In<span class="req"></button>
                     
             <div id= "Footer"> 
                 <p> Copyright - tHat Style 2018 </p>

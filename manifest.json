@@ -1,0 +1,14 @@
+{
+
+        "name": "tHat_Style",
+        "manifest_version": 2,
+        "version": "1.0",
+        "description": "This is a short description for our chrome ext.",
+        "browser_action": {
+            "default_icon":"icon.png",
+            "default_popup": "popup.html"
+        }
+
+
+
+}

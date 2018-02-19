@@ -1,0 +1,104 @@
+/* main content - dashboard */
+#wrapper {
+    background-color: #F2F2F2;
+    width: 375px; 
+    height: auto;
+    margin: 0 auto;
+}            
+ #header {
+    color: #fff; 
+    background-color: #0060c5;
+    margin: 0px 0px 0px 0px; 
+    font-family: brad; 
+    height: 60px;
+}
+
+ #header #title h1 {
+    text-align: left; 
+    padding-top: 15px;
+    padding-left: 4px;
+    font-family: brad;
+    font-weight: bold;
+    font-size: 32px;
+}
+ #header #icon {
+    float: right;
+    margin: -60px 70px 0px 0px; 
+}
+ #header #icon2 {
+    float: right;
+    margin: -63px 10px 0px 0px;
+
+}
+
+h2{
+    font-family: brad;
+    font-weight: bold;
+    font-size: 24px;
+
+    text-align: center;
+
+    border-bottom: solid 4px #0060c5;
+    
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 2.5px;
+}
+
+.box input[type="text"] {
+    background-color: #F2F2F2;
+    border: solid 1px #F2F2F2;
+
+    width: 80%;
+    height: auto;
+    margin-left: 36px; 
+  
+    padding-bottom: 10px;
+  
+}
+/*styles*/ 
+@font-face {
+    font-family: brad;
+    src: url('../tHat_Style/brad.TTF')
+}
+a {
+    color: #FFF;
+    text-decoration: none;
+
+}
+.btn {
+      display: inline-block;
+      border: none;
+      padding: 6px 12px;
+      margin-left: 0px;
+      font-size: 0px;
+      font-weight: bold;
+      text-align: center; 
+      cursor: pointer;  
+}     
+
+.btn-lg {
+      padding: 20px 10px;
+      font-size: 32px;
+      width: 80%;
+      margin: 10px 0px 0px 35px;
+      font-family: brad; 
+}
+.btn-sm {
+      padding: 5px 10px;
+      font-size: 18px;                   
+}
+
+.btn-success {
+      color: #FFF;
+      background-color: #0060c5;
+      border-color:#0060c5;
+}
+.btn-success:hover,
+.btn-sucess:focus,
+.btn-sucess:active {
+      color: #fff;
+      background-color: #0060c5;
+      border-color: #0060c5;
+}

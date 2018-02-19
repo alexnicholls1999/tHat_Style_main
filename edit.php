@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title> Create Account </title>
+        <title> Your Account </title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" type="text/css" href="create.css"/>
@@ -13,20 +13,20 @@
     <div id="wrapper">
         <div id="header">
             <div id= "title">   
-                <a href="index.html"><h1> tHat Style: Creating Account </h1></a>
+                <a href="index.html"><h1> tHat Style: Editing Account </h1></a>
             </div>
         </div>  
         <div id="facebook">
             </br>
-            <a><button> Connect With Facebook </button></a>
+            <a><button disabled> Connected </button></a>
         </div> 
         <div id="twitter">    
-            <a><button> Connect With Twitter </button></a>
+            <a><button disabled> Connected </button></a>
         </div>
         
         <div id= "Manual">
             </br>
-            <h2> Manual Entry </h2>
+            <h2> Personal Information </h2>
             <form action= "dash.php" method="post" autocomplete="off"> 
                 <div class="basic">
                     </br>

@@ -2,7 +2,7 @@
 #wrapper {
     background-color: #F2F2F2;
     width: 375px; 
-    height: 667px;
+    height: auto;
     margin: 0 auto;
 }            
 #logo {
@@ -11,10 +11,64 @@
 }
 #title h1 {
     text-align: center; 
-    padding: 10px;
     font-family: brad;
     font-weight: bold;
     font-size: 32px;
+}
+
+#facebook button {
+      
+    font-size: 18px;
+    font-weight: bold;
+    font-family: brad; 
+    
+    text-align: center; 
+    
+    cursor: pointer;  
+    
+    padding: 5px 10px 10px 10px;
+    margin: -40px 0px 0px 35px;
+    width: 80%;
+  
+    background-color: #0060c5;
+    color: #fff;
+    
+    border: solid 1px #0060c5;
+}
+#twitter button {
+    
+    font-size: 18px;
+    font-weight: bold;
+    font-family: brad; 
+    
+    text-align: center; 
+    
+    cursor: pointer;  
+    
+    padding: 5px 10px 10px 10px;
+    margin: 10px 0px 0px 35px;
+    width: 80%;
+  
+    background-color: #00B0F0;
+    color: #fff;
+    
+    border: solid 1px #00B0F0;
+}
+.Manual h2{
+    text-align: center;
+    
+    font-family: brad;
+    font-size: 18px;
+    
+    border-bottom: solid #0060c5;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 15px;   
+    
+}
+.field-wrap {
+    padding-top: 15px;
+    margin-top: 5px;
 }
 #content h2 {
     text-align: center; 
@@ -27,7 +81,7 @@
     background-color: #0060c5;
     text-align: center;
     height: 50px;
-    margin: 140px 0px 0px 0px; 
+    margin: 30px 0px 0px 0px; 
     font-family: brad;      
 }
 #Footer p {
@@ -63,14 +117,11 @@ label {
     -webkit-transform: translateY(6px);
             transform: translateY(6px);
     color: black;
-    margin: 0px 0px 0px 30px; 
-    -webkit-transition:all 0.25s ease;
-    transition: all 0.25s ease;
-    -webkit-backface-visibility: hidden;
-    pointer-events: none;
+    margin: 0px 0px 0px 40px; 
     font-size: 15px;
     font-family: brad;
     font-weight: bold;  
+    padding-top: 10px;
 }
 label .req {
     margin: 2px;
@@ -92,13 +143,12 @@ input, textarea {
   font-size: 15px;
   font-family: brad;
   font-weight: bold;
-  display: inline;
-  width: 90%;
+  width: 80%;
   padding: 5px 10px;
-  color:#black;
+  color:black;
   background-color:#D9D9D9;
   border: 1px solid #D9D9D9;
-  margin: 0px 10px 10px 10px;
+  margin-left: 25px;
 }
 .btn {
       display: inline-block;
@@ -112,10 +162,10 @@ input, textarea {
 }     
 
 .btn-lg {
-      padding: 20px 10px;
+      padding: 10px 10px;
       font-size: 32px;
       width: 80%;
-      margin: 30px 0px 0px 35px;
+      margin: 20px 0px 0px 35px;
       font-family: brad; 
 }
 .btn-sm {
