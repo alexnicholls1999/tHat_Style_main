@@ -43,11 +43,11 @@
 
             <form action="add_hangar.php" method="get">
                 <div id="productname">
-                    <label> Name of product: </label>
+                    </br><label> Name of </br> product: </label>
                     <input type="text" name="name">
                 </div></br>
                 <div id="Clothing">
-                    <label>Type Of Clothing:</label>  
+                    <label>Type Of </br>Clothing:</label>  
                 <form>
                     <select name="clothingList" onchange="clothingType()">
                         <option>Coat</option>
@@ -67,13 +67,23 @@
                 </form>
                 </div>
                 
-                <div class="clothingpic"><label> Picture: </label><input type="file" name="item" accept="images/*"></div>
+                <div class="lblupload">
+                    <label> Picture: </label>
+                </div>
+                
+                <div class=btnUpload>
+                    <input type="file" name="item" accept="images/*"></br>
+                </div>
+
+                <div class="price"> 
                 <label> Price: </label>
-                <input type="text" name="price">    
-            </form>
+                <input type="text" name="price"></br>
+                </div>   
+                
+                </form>
         </div>
     
-        <button class="btn btn-success btn-lg">Add Hangar</button>
+</br></br></br><button class="btn btn-success btn-lg">Add Hangar</button>
     </div>
 </body>
 </html>
