@@ -37,7 +37,7 @@
     font-weight: bold;
 }
 
-/* Add Hanger */
+/* Add Hanger Page */
 #hangar #wrapper {
     background-color: #F2F2F2;  
     width: 375px;
@@ -102,7 +102,7 @@
 #hangar #manual_entry h2{
     text-align: center;
     margin: 0 auto;
-    padding-top: 130px;
+    padding-top: 85px;
     padding-bottom: 2.5px;
     font-family: brad;
     font-weight: bold;
@@ -141,27 +141,27 @@
 #hangar #Clothing select {
     float: left;
     margin-left: 80px;
-    margin-top: -20px;
+    margin-top: -27.5px;
     padding-bottom: 10px;
     width: 30%;
 }
 #hangar .lblupload label {
     float: right;
-    margin-top: -20px;
-    margin-right: 100px;
+    margin-top: -27.5px;
+    margin-right: 110px;
     font-family: brad;
     font-weight: bold;
     font-size: 15px;
 }
 #hangar .btnUpload input[type="file"]{
     float: right;
-    width: 20%;
+    width: 25%;
     font-family: brad;
     font-weight: bold;
     font-size: 15px;
-    margin-top: -20px;
-    margin-right: 15px;
-    background-color: #F2F2F2;
+    margin-top: -27.5px;
+    margin-right: 8.5px;
+    background: #F2F2F2;
 }
 #hangar .price label {
     margin-top: 100px;
@@ -200,11 +200,11 @@
       padding: 20px 10px;
       font-size: 32px;
       width: 80%;
-      margin: -10px 0px 0px 35px;
+      margin: 20px 0px 0px 35px;
       font-family: brad; 
 }
 .btn-lg {
-      padding: 20px 10px 0px 0px;
+      padding: 20px 10px;
       font-size: 32px;
       width: 80%;
       margin: 10px 0px 0px 50px;

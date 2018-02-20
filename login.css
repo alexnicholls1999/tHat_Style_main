@@ -73,7 +73,7 @@
 #content h2 {
     text-align: center; 
     font-size: 32px;
-    font-family: brad, Arial; 
+    font-family: brad; 
     margin-top: 10px;
 }
 #Footer {
@@ -95,7 +95,7 @@
 /*styles*/ 
 @font-face {
     font-family: brad;
-    src: url('../tHat_Style/brad.TTF')
+    src: url('../tHat_Style_main/brad.TTF')
 }
 a {
     text-decoration: none;
