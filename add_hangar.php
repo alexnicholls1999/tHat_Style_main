@@ -16,11 +16,11 @@
             </div>
 
             <div id="icon">
-                <img src="images/dashboard.png" alt="dashboard" height= "35px" width="40px">
+                <a href="dash.php"><img src="images/dashboard.png" alt="dashboard" height= "35px" width="40px"></a>
             </div>
             
             <div id="icon2">
-                 <img src="images/account_icon.png" alt="account" height="35px" width="40px">    
+                 <a href="newacount.php"><img src="images/account_icon.png" alt="account" height="35px" width="40px"></a> 
             </div>
         </div> 
 

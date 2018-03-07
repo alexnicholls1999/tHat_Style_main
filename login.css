@@ -95,7 +95,7 @@
 /*styles*/ 
 @font-face {
     font-family: brad;
-    src: url('../tHat_Style_main/brad.TTF')
+    src: url('../tHat_Style_main/brad.ttf')
 }
 a {
     text-decoration: none;

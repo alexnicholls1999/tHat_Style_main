@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="BradleyHand-Bold.ttf">
+            <string>BradleyHandITCTT-Bold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Home View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="HomeViewController" id="BYZ-38-t0r" customClass="HomeViewController" customModule="tHat_Style_app_ios" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="O2U-UR-tpD"/>
+                        <viewControllerLayoutGuide type="bottom" id="T6p-8L-cNA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="xNf-97-XSo">
+                                <rect key="frame" x="107" y="28" width="161" height="141"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="141" id="Qf1-Sc-a2C"/>
+                                    <constraint firstAttribute="width" constant="161" id="dbJ-1o-TPR"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DxX-C9-Pr4">
+                                <rect key="frame" x="20" y="278" width="335" height="69"/>
+                                <color key="backgroundColor" red="0.15782706439495087" green="0.37139269709587097" blue="0.74516856670379639" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="69" id="ArY-Tv-oxn"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="30"/>
+                                <state key="normal" title="Sign In">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="sgninbtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nzU-SR-gvx"/>
+                                    <action selector="signinButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fGR-47-Phd"/>
+                                    <segue destination="T9t-d3-MTw" kind="show" identifier="btn1" id="gWU-fI-L7F"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZYh-NB-BEF">
+                                <rect key="frame" x="20" y="438" width="335" height="69"/>
+                                <color key="backgroundColor" red="0.15782706439495087" green="0.37139269709587097" blue="0.74516856670379639" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="69" id="eqm-C1-osQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="30"/>
+                                <state key="normal" title="Sign Up">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="tHat Style" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z0m-2B-e1F">
+                                <rect key="frame" x="87.5" y="186" width="200" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="dRc-pf-f0r"/>
+                                    <constraint firstAttribute="height" constant="56" id="xBi-K9-zGN"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="39"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="or" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W60-WY-jSZ">
+                                <rect key="frame" x="150" y="382" width="75" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="5gB-PO-Ofs"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="33"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I09-AP-rlJ">
+                                <rect key="frame" x="0.0" y="597" width="375" height="70"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="tHatStyle @copyright 2018" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3ic-WA-1qh">
+                                        <rect key="frame" x="91" y="8" width="192" height="19"/>
+                                        <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="15"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="www.tHatStyle.co.uk" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dxk-KH-bce">
+                                        <rect key="frame" x="91" y="30" width="192" height="16.5"/>
+                                        <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="13"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.15782706439999999" green="0.3713926971" blue="0.74516856669999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="860-ab-FyC"/>
+                                    <constraint firstItem="dxk-KH-bce" firstAttribute="leading" secondItem="I09-AP-rlJ" secondAttribute="leading" constant="91" id="Hif-f9-UnB"/>
+                                    <constraint firstAttribute="trailing" secondItem="dxk-KH-bce" secondAttribute="trailing" constant="92" id="LiC-MU-PXQ"/>
+                                    <constraint firstItem="3ic-WA-1qh" firstAttribute="leading" secondItem="I09-AP-rlJ" secondAttribute="leading" constant="91.5" id="WNl-U4-AjX"/>
+                                    <constraint firstItem="dxk-KH-bce" firstAttribute="top" secondItem="3ic-WA-1qh" secondAttribute="bottom" constant="3" id="fc7-aA-CWm"/>
+                                    <constraint firstItem="3ic-WA-1qh" firstAttribute="top" secondItem="I09-AP-rlJ" secondAttribute="top" constant="8" id="h61-Fa-rzr"/>
+                                    <constraint firstItem="dxk-KH-bce" firstAttribute="top" secondItem="3ic-WA-1qh" secondAttribute="bottom" constant="3" id="qoG-pF-oxU"/>
+                                    <constraint firstAttribute="trailing" secondItem="3ic-WA-1qh" secondAttribute="trailing" constant="91.5" id="xwk-gb-Omc"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.94901960784313721" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="ZYh-NB-BEF" secondAttribute="trailing" constant="20" id="1kT-AB-cke"/>
+                            <constraint firstItem="Z0m-2B-e1F" firstAttribute="top" secondItem="O2U-UR-tpD" secondAttribute="bottom" constant="166" id="3J6-hH-Qxy"/>
+                            <constraint firstItem="xNf-97-XSo" firstAttribute="top" secondItem="O2U-UR-tpD" secondAttribute="bottom" constant="8" id="4iF-XS-E1t"/>
+                            <constraint firstItem="T6p-8L-cNA" firstAttribute="top" secondItem="I09-AP-rlJ" secondAttribute="bottom" id="9AB-Er-KJ2"/>
+                            <constraint firstItem="T6p-8L-cNA" firstAttribute="top" secondItem="DxX-C9-Pr4" secondAttribute="bottom" constant="320" id="9CS-wO-LFP"/>
+                            <constraint firstItem="I09-AP-rlJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Ao3-l6-bKi"/>
+                            <constraint firstItem="xNf-97-XSo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CrR-Lc-LmW"/>
+                            <constraint firstAttribute="trailing" secondItem="W60-WY-jSZ" secondAttribute="trailing" constant="150" id="Kr7-3q-acA"/>
+                            <constraint firstItem="I09-AP-rlJ" firstAttribute="top" secondItem="ZYh-NB-BEF" secondAttribute="bottom" constant="90" id="SN6-2V-cb0"/>
+                            <constraint firstItem="ZYh-NB-BEF" firstAttribute="top" secondItem="W60-WY-jSZ" secondAttribute="bottom" constant="35" id="ZGy-go-zx9"/>
+                            <constraint firstAttribute="trailing" secondItem="DxX-C9-Pr4" secondAttribute="trailing" constant="20" id="c8E-Ia-TT4"/>
+                            <constraint firstItem="DxX-C9-Pr4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="hFd-dy-cU0"/>
+                            <constraint firstAttribute="trailing" secondItem="I09-AP-rlJ" secondAttribute="trailing" id="jr3-TT-W6S"/>
+                            <constraint firstItem="W60-WY-jSZ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="150" id="ke1-Fs-MML"/>
+                            <constraint firstItem="ZYh-NB-BEF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="pMl-mk-2zr"/>
+                            <constraint firstItem="Z0m-2B-e1F" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vst-0R-fLw"/>
+                            <constraint firstItem="W60-WY-jSZ" firstAttribute="top" secondItem="DxX-C9-Pr4" secondAttribute="bottom" constant="35" id="yEA-bX-311"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="133.59999999999999" y="129.98500749625188"/>
+        </scene>
+        <!--Sign In View Controller-->
+        <scene sceneID="QTs-lP-FrT">
+            <objects>
+                <viewController storyboardIdentifier="SignInViewController" id="T9t-d3-MTw" customClass="SignInViewController" customModule="tHat_Style_app_ios" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8Pb-Dq-Og1"/>
+                        <viewControllerLayoutGuide type="bottom" id="zz9-QD-RqH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="DcD-fV-Ksl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sign In Page" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oQ9-AV-Qja">
+                                <rect key="frame" x="73" y="305" width="229" height="56"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="200" id="ZVs-oj-3Mx"/>
+                                    <constraint firstAttribute="height" constant="56" id="xgb-z5-gkD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="39"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="oQ9-AV-Qja" firstAttribute="centerX" secondItem="DcD-fV-Ksl" secondAttribute="centerX" id="05U-7S-fjx"/>
+                            <constraint firstItem="oQ9-AV-Qja" firstAttribute="centerY" secondItem="DcD-fV-Ksl" secondAttribute="centerY" id="4oW-u2-mQY"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="67a-f8-ehs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="854" y="130"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logo" width="232" height="198"/>
+    </resources>
+</document>

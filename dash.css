@@ -31,7 +31,7 @@
 
 }
 
-h2{
+.box h2{
     font-family: brad;
     font-weight: bold;
     font-size: 24px;
@@ -60,7 +60,7 @@ h2{
 /*styles*/ 
 @font-face {
     font-family: brad;
-    src: url('../tHat_Style/brad.TTF')
+    src: url('../tHat_Style_main/brad.TTF')
 }
 a {
     color: #FFF;

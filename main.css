@@ -155,12 +155,12 @@
 }
 #hangar .btnUpload input[type="file"]{
     float: right;
-    width: 25%;
+    width: 20%;
     font-family: brad;
     font-weight: bold;
     font-size: 15px;
     margin-top: -27.5px;
-    margin-right: 8.5px;
+    margin-right: 25px;
     background: #F2F2F2;
 }
 #hangar .price label {
